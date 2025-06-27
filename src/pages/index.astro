@@ -16,7 +16,7 @@ const publications = [
 		description: '为解决实际问题研发的工具集合',
 	},	{
 		title: '技术博客',
-		link: 'https://blog.hanjianqiao.cn/',
+		link: 'https://blog.hlib.net.cn/',
 		description: '分享技术知识、分享实践经验',
 	},	{
 		title: '开源项目',
@@ -50,7 +50,7 @@ const publications = [
 		publications.map((item) => (
 		<div class="p-6 bg-base-200 rounded-xl text-base-content">
 			<h2 class="card-title text-xl">
-				<a href={item.link} class="hover:text-accent">{item.title}</a>
+				<a href={item.link} class="font-medium text-blue-600 dark:text-blue-500 hover:underline">{item.title}</a>
 			</h2>
 			<p>{item.description}</p>
 		</div>
